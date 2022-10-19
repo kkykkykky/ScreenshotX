@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared_ScreenshotX", "Shared_ScreenshotX\Shared_ScreenshotX.shproj", "{B670A925-D283-44F3-87C2-7531CD3D9B61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RG_ScreenshotX", "RG_ScreenshotX\RG_ScreenshotX.csproj", "{72755060-5BC4-45FC-B1ED-16A946C08536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RG_StudioScreenshotX", "RG_StudioScreenshotX\RG_StudioScreenshotX.csproj", "{C9CFB88D-C1C3-4AAA-B865-C5603254C48E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94C8CA82-403E-474B-89F4-2EF0C962049A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared_ScreenshotX\Shared_ScreenshotX.projitems*{72755060-5bc4-45fc-b1ed-16a946c08536}*SharedItemsImports = 4
+		Shared_ScreenshotX\Shared_ScreenshotX.projitems*{b670a925-d283-44f3-87c2-7531cd3d9b61}*SharedItemsImports = 13
+		Shared_ScreenshotX\Shared_ScreenshotX.projitems*{c9cfb88d-c1c3-4aaa-b865-c5603254c48e}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72755060-5BC4-45FC-B1ED-16A946C08536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72755060-5BC4-45FC-B1ED-16A946C08536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72755060-5BC4-45FC-B1ED-16A946C08536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72755060-5BC4-45FC-B1ED-16A946C08536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CFB88D-C1C3-4AAA-B865-C5603254C48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CFB88D-C1C3-4AAA-B865-C5603254C48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CFB88D-C1C3-4AAA-B865-C5603254C48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CFB88D-C1C3-4AAA-B865-C5603254C48E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992B69C0-6E8F-4E7D-AE0A-905D5417F1D4}
+	EndGlobalSection
+EndGlobal
